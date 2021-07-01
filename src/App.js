@@ -1,6 +1,7 @@
 import React from 'react'
 // import * as BooksAPI from './BooksAPI'
 import './App.css'
+import AddButton from './components/AddButton'
 import BookShelves from './components/BookShelves'
 import Header from './components/Header'
 import SearchBook from './components/SearchBook'
@@ -25,9 +26,7 @@ class BooksApp extends React.Component {
           <div className="list-books">
             <Header/>
             <BookShelves/>
-            <div className="open-search">
-              <button onClick={() => this.setState({ showSearchPage: true })}>Add a book</button>
-            </div>
+            <AddButton/>
           </div>
         )}
       </div>
