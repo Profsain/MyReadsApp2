@@ -26,8 +26,6 @@ const BookShelves = (props) => {
                     )
                 })
             }
-
-            {/* <BookShelf /> */}
         </div>
     );
 }

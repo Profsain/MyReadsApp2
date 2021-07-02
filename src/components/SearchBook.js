@@ -100,6 +100,7 @@ class SearchBook extends React.Component {
     );
   }
 }
+
 SearchBook.PropTypes = {
   moveBook: PropTypes.func.isRequired
 }

@@ -4,11 +4,9 @@ import PropTypes from 'prop-types'
 class BookShelf extends React.Component {
     render() {
         const { books, moveBook } = this.props
-        // console.log("Inside BookShelf", books)
         return (
 
             <div>
-                {/* bookshelf component */}
                 <ol className="books-grid">
                     {
                         books.map((book) => (
