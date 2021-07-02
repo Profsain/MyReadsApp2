@@ -1,9 +1,16 @@
 import React from 'react'
+import * as BooksAPI from '../BooksAPI'
 
 class SearchBook extends React.Component {
+  //state object to hold book data
+  state = {
+    books: [],
+    searchResult: [],
+    searchError: false
+  }
+
     render() {
         return (
-             // search book component
           <div className="search-books">
             <div className="search-books-bar">
               <button className="close-search" onClick={() => this.props.showSearchPage(false)}>Close</button>
