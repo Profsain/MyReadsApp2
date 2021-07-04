@@ -65,7 +65,6 @@ class SearchBook extends React.Component {
 
 SearchBook.propTypes = {
   moveBook: PropTypes.func.isRequired,
-  bookobj: PropTypes.object.isRequired,
   books: PropTypes.array.isRequired
 }
 
